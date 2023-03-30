@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Developer's Cheatsheets | HTML Cheatsheet</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>HTML Cheatsheet</h1>
+	<h4>Here you can find the resources you need to help yourselves working with HTML. This cheatsheet is made to save
+		you time and increase your productivity as a developer. No matter whether you are an absolute beginner or an
+		experienced front-end developer, you'll always need this collection of information at your fingertips.</h4>
+	<h2>HTML Elements Reference</h2>
+	<h3>HTML Elements</h3>
+	<h4>The following tags define the structure of a basic HTML document.</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Tag</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">&lt;html&gt;</span></td>
+				<td>HTML</td>
+				<td>Acts as a container for every other element in the document except the <span class="code">
+						&lt;!DOCTYPE html&gt; tag.</span></td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;head&gt;</span></td>
+				<td>Head</td>
+				<td>Includes all the document's metadata.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;title&gt;</span></td>
+				<td>Title</td>
+				<td>Defines the title of the document displayed in the browser's title bar.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;body&gt;</span></td>
+				<td>Body</td>
+				<td>Acts as a container for the document's content that gets displayed on the browser.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h4>The following tags gives additional information to the HTML document.</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Tag</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">&lt;meta&gt;</span></td>
+				<td>Meta</td>
+				<td>Used to define additional information about the webpage.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;link&gt;</span></td>
+				<td>Link</td>
+				<td>Used to link the document to an external resource.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;style&gt;</span></td>
+				<td>Style</td>
+				<td>Used for defining styles for the document.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;script&gt;</span></td>
+				<td>Script</td>
+				<td> Used to write code snippets (usually JS) or to link the document to an external script.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>HTML Document Structure</h3>
+	<h4>We'll use certain tags to create the structure in our HTML document</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Tag</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">&lt;h1&gt;</span> to <span class="code">&lt;h6&gt;</span></td>
+				<td>Heading</td>
+				<td>The <span class="code">&lt;h1&gt;</span> to <span class="code">&lt;h6&gt;</span> tags show different
+					levels of headings in a document, with <span class="code">&lt;h1&gt;</span> being the largest and
+					<span class="code">&lt;h6&gt;</span> being the smallest.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;p&gt;</span></td>
+				<td>Paragraph</td>
+				<td>We use the <span class="code">&lt;p&gt;</span> tag to create a paragraph.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;div&gt;</span></td>
+				<td>Div</td>
+				<td>Used to divide and style separate sections of the document. It also acts as a parent container for
+					other elements.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;span&gt;</span></td>
+				<td>Span</td>
+				<td>Its similar to <span class="code">&lt;div&gt;</span> but you use it as an inline container.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;br/&gt;</span></td>
+				<td>Line-break</td>
+				<td>Used for creating line breaks. This has no closing tag.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;hr/&gt;</span></td>
+				<td>Horizontal</td>
+				<td>Used to create a horizontal line. It also has no closing tag.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;img&gt;</span></td>
+				<td>Image</td>
+				<td>Used to display images.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>HTML Text Formatting</h3>
+	<h4>We can format text in HTML in many ways.</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Tag</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">&lt;i&gt;</span></td>
+				<td>Italics</td>
+				<td>Displays text in italics.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;b&gt;</span></td>
+				<td>Bold</td>
+				<td>Displays text in bold.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;strong&gt;</span></td>
+				<td>Strong</td>
+				<td>Displays text in bold. Used to make important emphasis.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;em&gt;</span></td>
+				<td>Emphasis</td>
+				<td>Another emphasis tag that displays text in italics.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;sub&gt;</span></td>
+				<td>Subscript</td>
+				<td>Defines subscript text.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;sup&gt;</span></td>
+				<td>Superscript</td>
+				<td>Defines a superscript like the power of a number</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;small&gt;</span></td>
+				<td>Small</td>
+				<td>Reduces the size of text.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;del&gt;</span></td>
+				<td>Deleted</td>
+				<td>Defines deleted text by striking a line through the text.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;ins&gt;</span></td>
+				<td>inserted</td>
+				<td>Defines inserted text which is usually underlined.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;blockquote&gt;</span></td>
+				<td>Blockquote</td>
+				<td>Used to enclose a section of text quoted from another source.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;q&gt;</span></td>
+				<td>Quotes</td>
+				<td>Used for shorter inline quotes.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;cite&gt;</span></td>
+				<td>Citing</td>
+				<td>Used for citing the author of a quote.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;address&gt;</span></td>
+				<td>Address</td>
+				<td>Used for showing the author's contact information.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;abbr&gt;</span></td>
+				<td>Abbreviation</td>
+				<td>Denotes an abbreviation.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;code&gt;</span></td>
+				<td>Code</td>
+				<td>Displays code snippets.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;mark&gt;</span></td>
+				<td>Mark</td>
+				<td>Highlights text.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>HTML Table Reference</h2>
+	<h3>Table Tags</h3>
+	<h4>The following tags are used while creating tables in HTML.</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Tag</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">&lt;table&gt;</span></td>
+				<td>Table</td>
+				<td>The wrapper element for all HTML tables.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;thead&gt;</span></td>
+				<td>Table Head</td>
+				<td>The set of rows defining the column headers in a table.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;tbody&gt;</span></td>
+				<td>Table Body</td>
+				<td>The set of rows containing actual table data.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;tr&gt;</span></td>
+				<td>Table Row</td>
+				<td>The table row container.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;td&gt;</span></td>
+				<td>Table Data</td>
+				<td>The table row container.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;tfoot&gt;</span></td>
+				<td>Table Foot</td>
+				<td>The set of rows defining the footer in a table.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Table Attributes</h3>
+	<h4>The following attributes are used along with table tags while creating tables in HTML.</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Attribute</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>colspan</td>
+				<td>Column Span</td>
+				<td>Defines how many columns a td element should span.</td>
+			</tr>
+			<tr>
+				<td>rowspan</td>
+				<td>Row Span</td>
+				<td>Defines how many rows a td element should span.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Links and Anchor Tag Attributes</h3>
+	<h4>The <span class="code">&lt;a&gt;</span> tag, also known as the anchor tag, is used to define hyperlinks that
+		link to other pages (external web pages included) or to a section of the same page. Here are some attributes of
+		the <span class="code">&lt;a&gt; tag:</span></h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Attribute</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>href</td>
+				<td>Hypertext Reference</td>
+				<td>Specifies the URL the link takes the user to when clicked.</td>
+			</tr>
+			<tr>
+				<td>download</td>
+				<td>Download</td>
+				<td>Specifies that the target or resource clicked is downloadable.</td>
+			</tr>
+			<tr>
+				<td>target</td>
+				<td>Target</td>
+				<td>Specifies where the link is to be opened. This could be in the same or separate window.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Lists</h3>
+	<h4>The <span class="code">&lt;ol&gt;</span> tag defines an ordered list while the <span
+			class="code">&lt;ul&gt;</span> tag defines an unordered list.The <span class="code">&lt;li&gt;</span> tag is
+		used to create items in the list.</h4>
+	<h3>Forms</h3>
+	<h4>The <span class="code">&lt;form&gt;</span> tag is used to create a form in HTML. Forms are used to get user
+		inputs. Here are some attributes associated with the <span class="code">&lt;form&gt;</span> element:</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Attribute</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>action</td>
+				<td>Action</td>
+				<td>Specifies where the form information goes when submitted.</td>
+			</tr>
+			<tr>
+				<td>target</td>
+				<td>Target</td>
+				<td>Specifies where to display the form's response.</td>
+			</tr>
+			<tr>
+				<td>autocomplete</td>
+				<td>Autocomplete</td>
+				<td>Can have a value of on or off.</td>
+			</tr>
+			<tr>
+				<td>nonvalidate</td>
+				<td>Nonvalidate</td>
+				<td>Specifies that the form should not be validated.</td>
+			</tr>
+			<tr>
+				<td>method</td>
+				<td>Method</td>
+				<td>Specifies the HTTP method used when sending form data.</td>
+			</tr>
+			<tr>
+				<td>name</td>
+				<td>Name</td>
+				<td>Specifies the name of the form.</td>
+			</tr>
+			<tr>
+				<td>required</td>
+				<td>Required</td>
+				<td>Specifies that an input element cannot be left empty.</td>
+			</tr>
+			<tr>
+				<td>autofocus</td>
+				<td>Autofocus</td>
+				<td>Gives focus to the input elements when the page loads.</td>
+			</tr>
+			<tr>
+				<td>disabled</td>
+				<td>Disabled</td>
+				<td>Disables an input element so the user can longer interact with it.</td>
+			</tr>
+			<tr>
+				<td>placeholder</td>
+				<td>Placeholder</td>
+				<td>Is used to give users a hint on what information is required for an input element.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h4>Here are other input elements associated with forms:</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Elements</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">&lt;textarea&gt;</span></td>
+				<td>Text-area</td>
+				<td>For getting user text input with multiple lines</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;select&gt;</span></td>
+				<td>Select</td>
+				<td>Specifies a list of options the user can choose from.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;option&gt;</span></td>
+				<td>Option</td>
+				<td>Creates an option under the select element.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;input&gt;</span></td>
+				<td>Input</td>
+				<td>Specifies an input field where the user can enter data. This has a type attribute that specifies
+					what type of data the user can input.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;button&gt;</span></td>
+				<td>Button</td>
+				<td>Creates a button.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>HTML5 Tags </h3>
+	<h4>Find below some tags introduced in HTML5:</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Tag</th>
+				<th>Name</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><span class="code">&lt;header&gt;</span></td>
+				<td>Header</td>
+				<td>Specifies the webpage header.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;footer&gt;</span></td>
+				<td>Footer</td>
+				<td>Specifies the webpage footer.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;main&gt;</span></td>
+				<td>Main</td>
+				<td>Specifies a main content section.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;article&gt;</span></td>
+				<td>Article</td>
+				<td>Specifies an article's section, usually for content that can stand alone on the webpage.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;section&gt;</span></td>
+				<td>Section</td>
+				<td>Is used to create separate sections.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;aside&gt;</span></td>
+				<td>Aside</td>
+				<td>Is usually used to when placing items in a sidebar.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;time&gt;</span></td>
+				<td>Time</td>
+				<td>Is used for formatting date and time.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;figure&gt;</span></td>
+				<td>Figure</td>
+				<td>Is used for figures like charts.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;figcaption&gt;</span></td>
+				<td>Figcaption</td>
+				<td>Denotes a description of a figure.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;nav&gt;</span></td>
+				<td>Navigation</td>
+				<td>Is used to nest navigation links.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;meter&gt;</span></td>
+				<td>Meter</td>
+				<td>Is used to measure data within a range.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;progress&gt;</span></td>
+				<td>Progress</td>
+				<td>Is used as a progress bar.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;dialouge&gt;</span></td>
+				<td>Dialouge</td>
+				<td>Is used to create a dialog box.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;audio&gt;</span></td>
+				<td>Audio</td>
+				<td>Is used to embed an audio file in the web page.</td>
+			</tr>
+			<tr>
+				<td><span class="code">&lt;video&gt;</span></td>
+				<td>Video</td>
+				<td>Is used to embed video.</td>
+			</tr>
+		</tbody>
+	</table>
+	<h4>Conclusion:</h4>
+	<p>I've tried my best to cover most of the commonly used elements, tags and attributes used by developers, so this
+		should serve as a good reference resource. Hope you have found this resource helpful!</p><br>
+</body>
+<hr>
+<footer>
+	<div class="text"><strong>Published on</strong> : 30th March 2023<br>
+		<strong>Published by</strong>: Sandhya Harshakumar<br>
+		<strong>Email</strong>: sandhyaharsh@gmail.com
+	</div>
+</footer>
+
+</html>

@@ -1,0 +1,49 @@
+h1  {
+  text-align: center;
+  color: #800000;
+}
+h2  {
+  text-align: center;
+  color: #800080;
+}
+
+h3  {
+  color: #00008B;
+  text-align: center;
+
+}
+
+h4  {
+  color: #663399;
+  text-align: center;
+}
+
+body  {
+  font-family: Arial, sans-serif;
+  background-color: #d8bfd8;
+}
+
+table  {
+  border: 2px solid #4B0082;
+  width: 650px;
+  margin: 0 auto;
+}
+
+thead  {
+  background-color: #dda0dd;
+
+}
+
+td  {
+  border-top: 1px solid #4B0082;
+}
+
+.code  {
+  font-family: monospace;
+  background-color: #E6E6FA;   
+}
+
+.text  {
+  text-align: center;
+  color: #191970;   
+}
